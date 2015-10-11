@@ -4,22 +4,40 @@ import (
 	"bufio"
 	"bytes"
 	"code.google.com/p/rsc/qr"
+	"flag"
 	"fmt"
 	"image"
 	"image/png"
 	"os"
 	"regexp"
-	"runtime"
 	"strings"
 )
 
-func main() {
+var (
+	seperator *string
+	label     *string
+	filename  *string
+)
 
-	// maximize CPU usage for maximum performance
-	runtime.GOMAXPROCS(runtime.NumCPU())
+func init() {
+	seperator = flag.String("s", ";", "seperator used in the CSV")
+
+	label = flag.String("l", "Serie: ", "the label to remove in the first column to QR")
+
+	filename = flag.String("i", "input.csv", "input file to process")
+
+	flag.Usage = func() {
+		fmt.Fprint(os.Stderr, "Generates a QR code for each row in the specified CSV file.\n\n")
+		flag.PrintDefaults()
+	}
+}
+
+func main() {
+	// read parameters
+	flag.Parse()
 
 	// open input file
-	inFile, err := os.Open("input.csv")
+	inFile, err := os.Open(*filename)
 	if err != nil {
 		panic(err)
 	}
@@ -34,11 +52,11 @@ func main() {
 	scanner.Split(bufio.ScanLines)
 
 	// prepare regexp to determine filename outside the loop
-	re, err := regexp.Compile(`Serie: (.*)`)
+	re, err := regexp.Compile(*label + "(.*)")
 
 	for scanner.Scan() {
 		text := scanner.Text()
-		text = strings.Replace(text, ";", "\n", -1)
+		text = strings.Replace(text, *seperator, "\n", -1)
 
 		// Parse filename
 		filename := re.FindStringSubmatch(text)[1]
