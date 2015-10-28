@@ -1,6 +1,40 @@
-Serie: 02ENE52CP002;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
-Serie: 02ENE52CP003;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
-Serie: 02ENE52CP004;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
-Serie: 02ENE52CP005;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
-Serie: 02ENE52CP006;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
-Serie: 02ENE52CP007;Kurztext: Das ist ein Test;Material: PI; Schutzeinrichtung: H;Hersteller: ABC;BetriebsmittelTyp/Typ: 266GST;Messbereich: 0 - 500 mbar
+Serie;Kurztext;Material;Schutzeinrichtung;Hersteller;BetriebsmittelTyp/Typ;Messbereich
+A1;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A2;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A3;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A4;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A5;Das ist ein Test;PI;H;ABC;;0 - 500 mbar
+A6;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A7;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A8;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A9;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A10;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A11;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A12;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A13;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A14;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A15;Das ist ein Test;PI;H;ABC;;0 - 500 mbar
+A16;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A17;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A18;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A19;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A20;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A21;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A22;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A23;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A24;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A25;Das ist ein Test;PI;H;ABC;;0 - 500 mbar
+A26;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A27;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A28;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A29;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A30;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A31;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A32;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A33;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A34;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A35;Das ist ein Test;PI;H;ABC;;0 - 500 mbar
+A36;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A37;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A38;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
+A39;Das ist ein Test;PI;H;ABC;266GST;0 - 500 mbar
